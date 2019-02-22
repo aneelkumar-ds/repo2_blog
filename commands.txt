@@ -1,0 +1,24 @@
+git config --list
+
+git config user.name "aneelkumardjango"
+git config user.email "aneelkumar.y@gmail.com"
+
+Modifying Existing git details:
+===============================
+git config --list
+git config --global user.name="aneel"
+git config --global user.email="aneelkumar.y@gmail.com"
+
+git remote -v
+git remote set-url origin https://github.com/aneelkumardjango/repo1.git
+
+
+
+https://github.com/aneelkumardjango/repo1.git
+
+echo "# repo1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aneelkumardjango/repo1.git
+git push -u origin master
